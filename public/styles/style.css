@@ -13,9 +13,10 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+ 
 }
 
-.container {
+.container-home{
   background-color: #f8f8f8;
   padding: 50px;
   width: 600px;
@@ -28,14 +29,14 @@ body {
 .home-button {
   margin-left: 180px;
   background-color: #dc143c;
+  color: white;
 }
 .artist-container{
   display:flex;
-  align-content:space-around;
+  align-content:space-between;
   justify-content: flex-start;
   flex-wrap: wrap;
-  
-}
+  }
 .view-album{
   background-color: #dc143c;
   color:white;
@@ -56,4 +57,41 @@ body {
 .header-elem {
   margin: 3vh 4vw;
 }
+.card{background-color: #E5E5E5;
+margin: 30px;}
+
+img{margin-bottom: 40px;
+  margin-right: 30px; 
+}
+
+.title{font-weight: bold;
+text-align: center;
+margin-right: 40px;
+color: white;
+font-size: 30px;
+-webkit-text-stroke: 1px black;
+ font-family: arial; color: white;}
+
+.view-album{
+  margin-left: 60px;
+  padding-right:50px;
+  padding-left: 50px;
+  text-align: center;
+}
+
+.container-fluid{background-color: #E5E5E5;
+  width: 85vw;
+  margin-left: 41px;
+
+}
+
+audio{margin-left:820px;
+}
+
+.row{font-weight: bold;
+}
+
+
+
+
 

@@ -1,13 +1,13 @@
-
-<h1>Artist Details</h1>
 <div class="artist-container">
-{{#each data }}
-<ul>
-    {{ name}}
-    <br>
-    <img src="{{images.1.url}}">
-    <br>
-    <a  class="view-album" href="/albums/{{id}}">View Albums</a>
-</ul>
-{{/each}}
+  {{#each data}}
+  <div class="card">
+    <ul>
+      <div class="title">{{name}}</div>
+      <br />
+      <img src="{{images.1.url}}" />
+      <br />
+      <a class="view-album" href="/albums/{{id}}">View Albums</a>
+    </ul>
+    </div>
+  {{/each}}
 </div>

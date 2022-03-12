@@ -3,9 +3,12 @@
     <h2 class="header-elem">Listen</h2>
 </header>
 {{#each tracks }}
+<div class="container-fluid">
 <ul id="list-tracks">
-    {{ name }}
-    <audio controls  src="{{preview_url}}">
+   <div class="row">{{ name }}
+    <audio  controls  src="{{preview_url}}">
     </audio>
-</ul>
+    </ul>
+   </div>
 {{/each}} 
+</div>
