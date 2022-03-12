@@ -31,6 +31,10 @@ body {
 }
 .artist-container{
   display:flex;
+  align-content:space-around;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  
 }
 .view-album{
   background-color: #dc143c;
