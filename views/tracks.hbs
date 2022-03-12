@@ -1,5 +1,9 @@
+<header id="header-tracks">
+    <h2 class="header-elem">Title</h2>
+    <h2 class="header-elem">Listen</h2>
+</header>
 {{#each tracks }}
-<ul>
+<ul id="list-tracks">
     {{ name }}
     <audio controls src="{{preview_url}}">
     </audio>

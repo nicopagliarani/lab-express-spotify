@@ -37,3 +37,19 @@ body {
   color:white;
   text-decoration: none;
 }
+
+#header-tracks {
+  background-color: rgb(65, 64, 64);
+  color:lightgray;
+  font-weight: bold;
+  justify-content: space-between;
+  display: flex;
+  width: 85vw;
+  align-self: center;
+  position: relative;
+  left: 3vw;
+}
+.header-elem {
+  margin: 3vh 4vw;
+}
+
