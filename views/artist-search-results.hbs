@@ -1,13 +1,12 @@
 <div class="artist-container">
-  {{#each data}}
-  <div class="card">
-    <ul>
-      <div class="title">{{name}}</div>
-      <br />
-      <img src="{{images.1.url}}" />
-      <br />
-      <a class="view-album" href="/albums/{{id}}">View Albums</a>
-    </ul>
-    </div>
-  {{/each}}
+{{#each data}}
+<div class="card" style="width: 18rem;">
+  <h5 class="card-title">{{name}}</h5>
+  <img src="{{images.1.url}}" class="card-img-top" alt="Artist Image">
+  <div class="card-body">
+    
+   <a href="/albums/{{id}}" class="btn btn-danger">View Albums</a>
+  </div>
+</div>
+{{/each}}
 </div>
